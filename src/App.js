@@ -6,7 +6,6 @@ import "./BoxesStyle.css";
 function App() {
   return (
     <>
-      <p>dsadsa</p>
       <FirstBox />
     </>
   );
