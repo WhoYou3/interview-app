@@ -1,7 +1,9 @@
 function ButtonColor(props) {
   return (
     <>
-      <button className="button-color">{props.children}</button>
+      <button className="button-color" onClick={props.onClick}>
+        {props.children}
+      </button>
     </>
   );
 }
