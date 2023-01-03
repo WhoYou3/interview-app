@@ -1,4 +1,4 @@
-import SecondBox from "./SecondBox";
+import SecondBox from "../../SecondBox";
 import "./BoxesStyle.css";
 import { useState } from "react";
 import useColorChanger from "./useColorChanger";
